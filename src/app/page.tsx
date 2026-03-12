@@ -53,12 +53,12 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           carouselItems={[
-            { id: "1", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg", imageAlt: "Transformation journey" },
-            { id: "2", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg", imageAlt: "Identity shift" },
-            { id: "3", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg", imageAlt: "Discipline mastery" },
-            { id: "4", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg", imageAlt: "Aligned success" },
-            { id: "5", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg", imageAlt: "Internal alignment" },
-            { id: "6", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg", imageAlt: "Sustainable growth" }
+            { id: "1", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg?_wi=1", imageAlt: "Transformation journey" },
+            { id: "2", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg?_wi=2", imageAlt: "Identity shift" },
+            { id: "3", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg?_wi=3", imageAlt: "Discipline mastery" },
+            { id: "4", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg?_wi=4", imageAlt: "Aligned success" },
+            { id: "5", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg?_wi=5", imageAlt: "Internal alignment" },
+            { id: "6", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg?_wi=6", imageAlt: "Sustainable growth" }
           ]}
           autoPlay={true}
           autoPlayInterval={4000}
