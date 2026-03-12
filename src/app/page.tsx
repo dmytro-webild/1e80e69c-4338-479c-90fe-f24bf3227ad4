@@ -9,7 +9,7 @@ import TestimonialCardThirteen from '@/components/sections/testimonial/Testimoni
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
-import { Sparkles, Award, Target, Zap, CheckCircle, TrendingUp, Star, Users, Heart, Clock } from 'lucide-react';
+import { Sparkles, Award, Target, Zap, CheckCircle, TrendingUp, Star, Users, Heart, Clock, Shield } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -19,7 +19,7 @@ export default function LandingPage() {
       borderRadius="pill"
       contentWidth="mediumLarge"
       sizing="largeSmall"
-      background="fluid"
+      background="circleGradient"
       cardStyle="outline"
       primaryButtonStyle="primary-glow"
       secondaryButtonStyle="radial-glow"
@@ -43,7 +43,7 @@ export default function LandingPage() {
         <HeroBillboardRotatedCarousel
           title="Rewire Your Identity Build Unshakeable Discipline"
           description="Most online entrepreneurs outgrow their old self faster than they can rebuild. We help you kill limiting patterns, architect powerful habits, and align your internal world with your external ambitions—so success feels effortless, not exhausting."
-          background={{ variant: "fluid" }}
+          background={{ variant: "rotated-rays-animated-grid" }}
           tag="Transformation Coaching"
           tagIcon={Sparkles}
           tagAnimation="slide-up"
@@ -53,12 +53,12 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           carouselItems={[
-            { id: "1", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg?_wi=1", imageAlt: "Transformation journey" },
-            { id: "2", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg?_wi=2", imageAlt: "Identity shift" },
-            { id: "3", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg?_wi=3", imageAlt: "Discipline mastery" },
-            { id: "4", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg?_wi=4", imageAlt: "Aligned success" },
-            { id: "5", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg?_wi=5", imageAlt: "Internal alignment" },
-            { id: "6", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg?_wi=6", imageAlt: "Sustainable growth" }
+            { id: "1", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg", imageAlt: "Transformation journey" },
+            { id: "2", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg", imageAlt: "Identity shift" },
+            { id: "3", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg", imageAlt: "Discipline mastery" },
+            { id: "4", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg", imageAlt: "Aligned success" },
+            { id: "5", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg", imageAlt: "Internal alignment" },
+            { id: "6", imageSrc: "http://img.b2bpic.net/free-vector/flat-world-mental-health-day-sale-banner-template_23-2149667252.jpg", imageAlt: "Sustainable growth" }
           ]}
           autoPlay={true}
           autoPlayInterval={4000}
